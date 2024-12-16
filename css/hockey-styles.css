@@ -1,0 +1,73 @@
+/* Set a custom background and font */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: lightslategray;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    padding: 2rem;
+    background-image: url('assets/img/nhl.png');
+    background-size: cover;
+    background-position: center;
+    color: black;
+}
+
+/* Navigation link */
+nav {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+/* Styling for Back to Home link */
+.home-link {
+    color: #007bff; /* Blue color */
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.home-link:hover {
+    color: #0056b3; /* Darker blue for hover effect */
+}
+
+/* Styling for Play the Number Guessing Game link */
+.game-link {
+    color: #FFD700; /* Gold color */
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.game-link:hover {
+    color: #e6c300; /* Slightly darker gold on hover */
+}
+
+/* Section styling */
+section {
+    margin: 2rem 0;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: white;
+}
+
+/* Image styling */
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #343a40;
+    color: white;
+}
